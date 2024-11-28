@@ -1,0 +1,36 @@
+{
+    "title": "Brooklyn",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FFFFFFBB",
+					"name": "Contrast #2",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#FFFFFF20",
+					"name": "Contrast #3",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#1A0A1E",
+					"name": "Base",
+					"slug": "base"
+				}
+			]
+		}
+    },
+	"styles": {
+		"color": {
+			"gradient": "linear-gradient(127.04deg, #642B73 27.49%, #040004 100%)"
+		}
+	}
+}

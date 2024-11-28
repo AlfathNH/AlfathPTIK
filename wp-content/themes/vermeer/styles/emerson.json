@@ -1,0 +1,31 @@
+{
+    "title": "Emerson",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#CDB1FB",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#CDB1FB99",
+					"name": "Contrast #2",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#CDB1FB20",
+					"name": "Contrast #3",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#1D1D1D",
+					"name": "Base",
+					"slug": "base"
+				}
+			]
+		}
+    }
+}

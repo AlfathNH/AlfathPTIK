@@ -1,0 +1,285 @@
+[2024-11-28 07:00:15] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-28 07:00:15] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-11-28 07:00:15] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-28 07:00:16] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-28 07:00:16] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215\
+[2024-11-28 07:00:16] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/wordpress_Alfath/
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/
+[2024-11-28 07:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/6748150045865-ElEFKo.tmp
+[2024-11-28 07:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/?simply_static_page=77
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/?simply_static_page=77
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:103] Filesize: 50123 bytes
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/6748150045865-ElEFKo.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/index.html
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:16] [class-ss-page.php:119] Checking Content Identical:b50dc388d467fa36056749f850d6f545aac8baff===. Value: FALSE
+[2024-11-28 07:00:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-28 07:00:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:69] Total pages: 14; Pages remaining: 13
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath
+[2024-11-28 07:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 14
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481500aa6d9-o9NNYD.tmp
+[2024-11-28 07:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath?simply_static_page=78
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath?simply_static_page=78
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/wordpress_Alfath/
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-content/uploads/2024/11/834c841d-d871-4f21-b992-10a126320b4a.jpg
+[2024-11-28 07:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 14
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481500ac91f-vQX5N1.tmp
+[2024-11-28 07:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-content/uploads/2024/11/834c841d-d871-4f21-b992-10a126320b4a.jpg?simply_static_page=79
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-content/uploads/2024/11/834c841d-d871-4f21-b992-10a126320b4a.jpg?simply_static_page=79
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:103] Filesize: 167592 bytes
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/834c841d-d871-4f21-b992-10a126320b4a.jpg
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/67481500ac91f-vQX5N1.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-content/uploads/2024/11/834c841d-d871-4f21-b992-10a126320b4a.jpg
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:16] [class-ss-page.php:119] Checking Content Identical:a3214e85c6ef9f13f46056351fdc5fe2a3301239===. Value: FALSE
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/js/vermeer-marquee.js
+[2024-11-28 07:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 14
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481500b01a5-j5refx.tmp
+[2024-11-28 07:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/js/vermeer-marquee.js?simply_static_page=80
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/js/vermeer-marquee.js?simply_static_page=80
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:103] Filesize: 3659 bytes
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vermeer/assets/js/vermeer-marquee.js
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/67481500b01a5-j5refx.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-content/themes/vermeer/assets/js/vermeer-marquee.js
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:16] [class-ss-page.php:119] Checking Content Identical:a19060b6443ec34415a318406e7b493d1159fe44===. Value: FALSE
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/feed/
+[2024-11-28 07:00:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 14
+[2024-11-28 07:00:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481500b2f4f-seHu2S.tmp
+[2024-11-28 07:00:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/feed/?simply_static_page=81
+[2024-11-28 07:00:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/feed/?simply_static_page=81
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 1815 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/67481500b2f4f-seHu2S.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/feed/index.xml
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:74419c413c6895da2b9a9365d1a0de152676ace4===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/comments/feed/
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/674815010ec5e-xKs5RO.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/comments/feed/?simply_static_page=82
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/comments/feed/?simply_static_page=82
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 1742 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/674815010ec5e-xKs5RO.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/comments/feed/index.xml
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:b3646522e7e795399632024b4317f39542465952===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-includes/blocks/cover/style.min.css
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/674815015dcc2-y4cvLQ.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-includes/blocks/cover/style.min.css?simply_static_page=83
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-includes/blocks/cover/style.min.css?simply_static_page=83
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 18099 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/674815015dcc2-y4cvLQ.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-includes/blocks/cover/style.min.css
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:c66e72e25362483017fa1c49bcae6e4087fe47c7===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-includes/blocks/navigation/style.min.css
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481501614d6-XxEJuL.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-includes/blocks/navigation/style.min.css?simply_static_page=84
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-includes/blocks/navigation/style.min.css?simply_static_page=84
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/67481501614d6-XxEJuL.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-includes/blocks/navigation/style.min.css
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-includes/blocks/social-links/style.min.css
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/6748150164a2e-MilNTC.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-includes/blocks/social-links/style.min.css?simply_static_page=85
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-includes/blocks/social-links/style.min.css?simply_static_page=85
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/6748150164a2e-MilNTC.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-includes/blocks/social-links/style.min.css
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:31aa11f7c686b08c09618aad559b886161247a72===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/style.css
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/674815016896e-URoF0A.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-content/themes/vermeer/style.css?simply_static_page=86
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/style.css?simply_static_page=86
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 2021 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vermeer/style.css
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/674815016896e-URoF0A.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-content/themes/vermeer/style.css
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:bfc35102a7702a121656f6a8dec7229c2cd59b9b===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-json/
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_Alfath/wp-json/
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/xmlrpc.php
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_Alfath/xmlrpc.php
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/674815016e482-JIUfJq.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist-mono/GeistMono-Variable.woff2?simply_static_page=89
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist-mono/GeistMono-Variable.woff2?simply_static_page=89
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 53476 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vermeer/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/674815016e482-JIUfJq.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-content/themes/vermeer/assets/fonts/geist-mono/GeistMono-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:79f940434a412b2ed98ed321dd47e1a4a0f4c926===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist/Geist-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 14
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/6748150171955-4f7BWI.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist/Geist-Variable.woff2?simply_static_page=90
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-content/themes/vermeer/assets/fonts/geist/Geist-Variable.woff2?simply_static_page=90
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 53444 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/vermeer/assets/fonts/geist/Geist-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/6748150171955-4f7BWI.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-content/themes/vermeer/assets/fonts/geist/Geist-Variable.woff2
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:07334f2dfbdb6ed70e122c33900ec1074712487f===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 14 pages/files
+[2024-11-28 07:00:17] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-28 07:00:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-28 07:00:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 2
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/6748150175895-vs3KSC.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/?simply_static_page=91
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/?simply_static_page=91
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:103] Filesize: 57793 bytes
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/28/halo-dunia/index.html
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/6748150175895-vs3KSC.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/2024/11/28/halo-dunia/index.html
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:17] [class-ss-page.php:119] Checking Content Identical:68473f0cbb0ce42dfffaa53af45139c58d51d910===. Value: FALSE
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/feed/
+[2024-11-28 07:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
+[2024-11-28 07:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/67481501d6e4a-J5hLPd.tmp
+[2024-11-28 07:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/feed/?simply_static_page=92
+[2024-11-28 07:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/2024/11/28/halo-dunia/feed/?simply_static_page=92
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:103] Filesize: 1725 bytes
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:233] New filename for static page: /2024/11/28/halo-dunia/feed/index.xml
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/67481501d6e4a-J5hLPd.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/2024/11/28/halo-dunia/feed/index.xml
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:18] [class-ss-page.php:119] Checking Content Identical:143094d0124fcb947fac555da7dfa17658076dff===. Value: FALSE
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 14 of 16 pages/files
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:69] Total pages: 19; Pages remaining: 3
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-includes/js/comment-reply.min.js
+[2024-11-28 07:00:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 19
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/6748150232695-MDOYbK.tmp
+[2024-11-28 07:00:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/wp-includes/js/comment-reply.min.js?simply_static_page=93
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/wp-includes/js/comment-reply.min.js?simply_static_page=93
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/6748150232695-MDOYbK.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215/wp-includes/js/comment-reply.min.js
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-28 07:00:18] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-json/wp/v2/posts/1
+[2024-11-28 07:00:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 19
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_Alfath/wp-json/wp/v2/posts/1
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wordpress_Alfath/wp-json/oembed/1.0/embed
+[2024-11-28 07:00:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 19
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wordpress_Alfath/wp-json/oembed/1.0/embed
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 19 pages/files
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-28 07:00:18] [class-ss-fetch-urls-task.php:69] Total pages: 19; Pages remaining: 0
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 19 of 19 pages/files
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\LABJAR~1\AppData\Local\Temp/674815023a590-xwtd5S.tmp
+[2024-11-28 07:00:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wordpress_Alfath/1732777219?simply_static_page=0
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wordpress_Alfath/1732777219?simply_static_page=0
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:103] Filesize: 45350 bytes
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-28 07:00:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\LABJAR~1\AppData\Local\Temp/674815023a590-xwtd5S.tmp to C:\xampp1\htdocs\wordpress_Alfath/wp-content/uploads\simply-static\temp-files/simply-static-1-1732777215\404/index.html
+[2024-11-28 07:00:18] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-28 07:00:18] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-28 07:00:18] [class-ss-page.php:119] Checking Content Identical:35357e788562888db3f3a32a31f74a7b523d3a14===. Value: FALSE
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-11-28 07:00:18] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-11-28 07:00:18] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/wordpress_Alfath/wp-content/uploads/simply-static/temp-files/simply-static-1-1732777215.zip">Click here to download</a>
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-28 07:00:18] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-28 07:00:18] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-28 07:00:18] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:03
